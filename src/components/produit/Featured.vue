@@ -12,6 +12,10 @@
                     <div class="featured-tiretContent">
                         <TiretHorizontal />
                     </div>
+                    <div class="featured-paragraphe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut reprehenderit hic error modi.
+                            Dicta, non illo vel dolorum dolorem vitae dolor</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -27,9 +31,15 @@ import TiretHorizontal from '../tiret/TiretHorizontal.vue';
 .featured-content {
     text-align: center;
     margin: 65px 0;
+    display: flex;
+    justify-content: center;
 }
 
-.featured-tiretContent{
+.featured-content-info{
+    width: 600px;
+}
+
+.featured-tiretContent {
     display: flex;
     justify-content: center;
 }
