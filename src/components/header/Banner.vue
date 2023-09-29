@@ -31,7 +31,7 @@
                                     </select>
                                 </span> -->
                                 <span>
-                                    <button type="submit">
+                                    <button type="submit" class="product-btn">
                                         <SearchVue />
                                     </button>
                                 </span>

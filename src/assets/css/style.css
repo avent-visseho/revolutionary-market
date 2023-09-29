@@ -56,11 +56,12 @@ ul{
     list-style: none;
 }
 
-button{
+button.product-btn{
     outline: none;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
