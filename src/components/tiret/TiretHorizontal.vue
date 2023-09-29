@@ -6,7 +6,7 @@
 
 <style scoped>
 .tirets {
-    width: 100px;
+    width: 150px;
     height: 5px;
     margin: 18px 0;
     background-color: var(--secondary-color);

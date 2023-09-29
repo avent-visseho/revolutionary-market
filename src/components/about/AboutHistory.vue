@@ -2,38 +2,7 @@
     <div class="aboutHistory">
         <div class="container">
             <div class="AboutHistory-content">
-                <div class="service-content">
-                    <div class="freeShopping">
-                        <span>
-                            <HeadPhone />
-                        </span>
-                        <div class="shopping-content">
-                            <h4>Free Shopping</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur! <br>
-                                Lorem ipsum, dolor sit</p>
-                        </div>
-                    </div>
-                    <div class="freeShopping">
-                        <span>
-                            <HeadPhone />
-                        </span>
-                        <div class="shopping-content">
-                            <h4>Save up to 25%</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur! <br>
-                                Lorem ipsum, dolor sit</p>
-                        </div>
-                    </div>
-                    <div class="freeShopping">
-                        <span>
-                            <HeadPhone />
-                        </span>
-                        <div class="shopping-content">
-                            <h4>24/7 </h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur! <br>
-                                Lorem ipsum, dolor sit</p>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
             <!-- about history -->
             <div class="aboutHistory-Image-content">
@@ -84,20 +53,6 @@ import VerticalTiretVue from '../tiret/VerticalTiret.vue';
 <style scoped>
 .AboutHistory-content {
     margin: 35px 0;
-}
-
-.service-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.freeShopping {
-    display: flex;
-    gap: 8px;
-}
-
-.shopping-content h4 {
-    color: var(--secondary-color);
 }
 
 .aboutHistory-Image-content {
