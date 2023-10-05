@@ -1,11 +1,8 @@
 <template>
     <div class="aboutHistory">
         <div class="container">
-            <div class="AboutHistory-content">
-               
-            </div>
             <!-- about history -->
-            <div class="aboutHistory-Image-content">
+            <div class="AboutHistory-content">
                 <div class="about-history-left">
                     <div class="about-first-image-content">
                         <img src="../../assets/img/about-image1.jpg" alt="">
@@ -13,7 +10,7 @@
                 </div>
                 <div class="about-history-right">
                     <div class="about-first-info-content">
-                        <div class="about-midle-til">
+                        <div class="about-midle-title">
                             <h3>About</h3>
                         </div>
                         <div class="about-title">
@@ -51,22 +48,20 @@ import VerticalTiretVue from '../tiret/VerticalTiret.vue';
 </script>
 
 <style scoped>
-.AboutHistory-content {
-    margin: 35px 0;
-}
 
-.aboutHistory-Image-content {
+.AboutHistory-content  {
+    margin: 35px 0;
     display: flex;
     gap: 45px;
 }
 
 .about-first-image-content {
-    width: 546px;
     height: 600px;
+    width: 520px;
 }
 
 .about-first-info-content {
-    width: 547px;
+    height: 600px;
 }
 
 .secondAbout-paragraphe {
