@@ -12,7 +12,7 @@
                             <router-link to="/about">A propos</router-link>
                         </li>
                         <li>
-                            <router-link to="/chemin-de-la-page">Produits</router-link>
+                            <router-link to="/product">Produits</router-link>
                         </li>
                         <li>
                             <router-link to="/chemin-de-la-page">Contact</router-link>

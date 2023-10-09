@@ -6,6 +6,9 @@
         <NavBarVue />
     </div>
     <div>
+        <TopBannerVue/>
+    </div>
+    <div>
         <AboutBannerVue/>
     </div>
     <div>
@@ -22,6 +25,7 @@
 <script setup>
 import HeaderVue from '../components/header/Header.vue';
 import NavBarVue from '../components/header/NavBar.vue';
+import TopBannerVue from '../components/header/TopBanner.vue';
 import AboutBannerVue from '../components/about/AboutBanner.vue';
 import AboutHistoryVue from '../components/about/AboutHistory.vue'
 import AboutMissionVue from '../components/about/AboutMission.vue';

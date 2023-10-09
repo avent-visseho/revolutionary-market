@@ -33,7 +33,7 @@ import StarVue from '../icons/Star.vue'
     padding: 8px;
     border: solid 3px var(--secondary-color );
     border-radius: 2px;
-    width: 265px;
+    width: 240px;
     margin: 15px 0;
 }
 
