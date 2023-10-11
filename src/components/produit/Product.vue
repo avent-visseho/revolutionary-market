@@ -37,6 +37,10 @@ import StarVue from '../icons/Star.vue'
     margin: 15px 0;
 }
 
+.productCard-image{
+    cursor: pointer;
+}
+
 .productCard-info{
     display: flex;
     justify-content: center;

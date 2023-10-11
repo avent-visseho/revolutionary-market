@@ -168,12 +168,6 @@ import PhoneVue from '../icons/Phone.vue'
     align-items: center;
 }
 
-hr{
-    height: 5px;
-    background-color: var(--secondary-color);
-    border: none;
-    margin: 25px 0;
-}
 
 .footBottom-content{
     display: flex;

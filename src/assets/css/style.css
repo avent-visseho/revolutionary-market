@@ -81,3 +81,10 @@ img{
 .icoColor{
     color: var(--secondary-color);
 }
+
+hr{
+    height: 5px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 15px 0;
+}
