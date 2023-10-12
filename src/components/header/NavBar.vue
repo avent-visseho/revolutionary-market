@@ -15,7 +15,7 @@
                             <router-link to="/product">Produits</router-link>
                         </li>
                         <li>
-                            <router-link to="">Contact</router-link>
+                            <router-link to="/contact">Contact</router-link>
                         </li>
 
                     </ul>

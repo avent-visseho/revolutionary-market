@@ -3,6 +3,7 @@ import IndexView from '../views/IndexView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProductView from '../views/ProductView.vue'
 import DetailProductView from '../views/DetailProductView.vue'
+import ContactView from '../views/ContactView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/detail',
       name: 'detail',
       component: DetailProductView
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ContactView
     }
   ]
 })
