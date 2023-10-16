@@ -23,7 +23,7 @@ import TiretHorizontalVue from '../tiret/TiretHorizontal.vue'
 <style scoped>
 
 #aboutBanner {
-    background: url('../../assets/img/aboutBanner.jpg');
+    background: url('../../assets/img/z.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;

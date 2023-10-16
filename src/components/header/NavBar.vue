@@ -36,7 +36,7 @@
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/chemin-de-la-page">
+                            <router-link to="/cart">
                                 <ShoppingCart />
                             </router-link>
                         </li>
